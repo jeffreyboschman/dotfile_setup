@@ -21,6 +21,6 @@ Now the vim side is done
 
 Good. Now we can use ctrl+vim bindings to move around tmux panes. Was that worth it? 
 
-
+EDIT:   It is good because now we can also use the same commands to move around screen splits and vim panes with the same commands. makes more sense now. 
 
 
