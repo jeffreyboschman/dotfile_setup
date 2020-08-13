@@ -13,6 +13,14 @@ set up .vimrc according to link
 
 :close will exit after PluginInstall
 
-2. Install the vim-tmux-navigator plugin https://github.com/christoomey/vim-tmux-navigator
+2. Install the vim-tmux-navigator plugin https://github.com/christoomey/vim-tmux-navigator in the .vimrc
+
+Now the vim side is done 
+
+3. add block of code from vim-tmux-navigator page to .tmux.conf
+
+Good. Now we can use ctrl+vim bindings to move around tmux panes. Was that worth it? 
+
+
 
 
