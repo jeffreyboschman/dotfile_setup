@@ -1,7 +1,7 @@
 # dotfile_setup
 A place for me to reference my personal preferences in my dot files (.vimrv, .bashrc, .tmux.conf)
 
-A link that I might need in the future: https://medium.com/@stephenagrice/take-your-linux-workspace-anywhere-backup-for-nerds-fdbf40b0421
+A link that I might need in the future: https://medium.com/@stephenagrice/take-your-linux-workspace-anywhere-bahttps://github.com/sickill/vim-monokai.gitckup-for-nerds-fdbf40b0421
 
 My first step is to set up my vim-tmux-navigator. https://github.com/christoomey/vim-tmux-navigator
 
@@ -24,3 +24,6 @@ Good. Now we can use ctrl+vim bindings to move around tmux panes. Was that worth
 EDIT:   It is good because now we can also use the same commands to move around screen splits and vim panes with the same commands. makes more sense now. 
 
 
+# now get the vim-monokai colour scheme.
+
+from https://github.com/sickill/vim-monokai
