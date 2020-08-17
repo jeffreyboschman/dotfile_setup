@@ -24,6 +24,12 @@ Good. Now we can use ctrl+vim bindings to move around tmux panes. Was that worth
 EDIT:   It is good because now we can also use the same commands to move around screen splits and vim panes with the same commands. makes more sense now. 
 
 
-# now get the vim-monokai colour scheme.
+## now get NERDTree
+
+https://github.com/preservim/nerdtree
+
+## now get the vim-monokai colour scheme.
 
 from https://github.com/sickill/vim-monokai
+
+## add certain things to .vimrc
