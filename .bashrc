@@ -21,7 +21,3 @@ PS1+="\[${red}\]\$(parse_git_branch)"	#git branch (when available)
 PS1+="\n"
 PS1+="\[${white}\]\$ \[${reset}\]"; # '$' and reset colour
 export PS1;
-
-export PATH="$HOME/Desktop/Sublime Text.app/Contents/SharedSupport/bin/":$PATH;
-
-CN="/Users/jeffrey/Documents/Education/MASc/Colour_Normalization/"
