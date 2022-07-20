@@ -6,6 +6,7 @@ A link that I might need in the future: https://medium.com/@stephenagrice/take-y
 1. Make sure Linux environment is up-to-date
 
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
 
 2. Confirm `git` is installed
