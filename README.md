@@ -3,6 +3,18 @@ A place for me to reference my personal preferences in my dot files (.vimrv, .ba
 
 A link that I might need in the future: https://medium.com/@stephenagrice/take-your-linux-workspace-anywhere-bahttps://github.com/sickill/vim-monokai.gitckup-for-nerds-fdbf40b0421
 
+1. Make sure Linux environment is up-to-date
+
+`sudo apt-get update`
+`sudo apt-get upgrade`
+
+2. Confirm `git` is installed
+
+`git --version`
+
+
+
+
 My first step is to set up my vim-tmux-navigator. https://github.com/christoomey/vim-tmux-navigator
 
 1. Install vundle as a vim plugin manager: https://github.com/VundleVim/Vundle.vim
