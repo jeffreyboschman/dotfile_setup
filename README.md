@@ -1,52 +1,51 @@
 # dotfile_setup
 A place for me to reference my personal preferences in my dot files (.vimrv, .bashrc, .tmux.conf)
 
-A link that I might need in the future: https://medium.com/@stephenagrice/take-your-linux-workspace-anywhere-bahttps://github.com/sickill/vim-monokai.gitckup-for-nerds-fdbf40b0421
-
-1. Make sure Linux environment is up-to-date
-
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
-
-2. Confirm `git`, `vim`, and `tmux` is installed
-
-`git --version`
-
-`vim --version`
-
-`tmux -V`
-
-3. Set up [vundle](https://github.com/VundleVim/Vundle.vim) as a vim plugin manager
 
 
-My first step is to set up my vim-tmux-navigator. https://github.com/christoomey/vim-tmux-navigator
+ckup-for-nerds-fdbf40b0421
 
-1. Install vundle as a vim plugin manager: https://github.com/VundleVim/Vundle.vim
+## Make sure Linux environment is up-to-date
 
-| git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+1. Update/upgrade the installed packages
 
-set up .vimrc according to link
+    * `sudo apt-get update`
 
-:close will exit after PluginInstall
+    * `sudo apt-get upgrade`
 
-2. Install the vim-tmux-navigator plugin https://github.com/christoomey/vim-tmux-navigator in the .vimrc
+1. Confirm `git`, `vim`, and `tmux` is installed
 
-Now the vim side is done 
+    * `git --version`
 
-3. add block of code from vim-tmux-navigator page to .tmux.conf
+    * `vim --version`
 
-Good. Now we can use ctrl+vim bindings to move around tmux panes. Was that worth it? 
+    * `tmux -V`
 
-EDIT:   It is good because now we can also use the same commands to move around screen splits and vim panes with the same commands. makes more sense now. 
+## Set up `.vimrc` file
+
+1. Create `monokai.vim` file in `~/.vim/colors/` directory
+    * This [sets up the color theme "monokai"](https://github.com/sickill/vim-monokai)
+
+1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+    * This is to set up [vundle](https://github.com/VundleVim/Vundle.vim) as the vim plugin manager
+
+1. Create `~/.vimrc` file 
+
+1. Install Vim Plugins
+
+    * With `~/.vimrc` opened up with `vim`, type `:PluginInstall`
+
+    * Type `:q` to exit
+
+## Set-up `.tmux.conf` file
+
+1. Create `~/.tmux.conf` file
+    * includes [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) code block so we can use ctrl+vim bindings to move around tmux panes
 
 
-## now get NERDTree
 
-https://github.com/preservim/nerdtree
 
-## now get the vim-monokai colour scheme.
+## next steps 
 
-from https://github.com/sickill/vim-monokai
-
-## add certain things to .vimrc
+* NERDTree ?  https://github.com/preservim/nerdtree
+* A link that I might need in the future: https://medium.com/@stephenagrice/take-your-linux-workspace-anywhere-backup-for-nerds-fdbf40b0421
