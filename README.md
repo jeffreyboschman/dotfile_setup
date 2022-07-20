@@ -34,6 +34,7 @@ A place for me to reference my personal preferences in my dot files (.vimrc, .ba
 
 1. `source ~/.vimrc` 
 
+
 ## Set-up `.tmux.conf` file
 
 1. Create `~/.tmux.conf` file
@@ -42,6 +43,11 @@ A place for me to reference my personal preferences in my dot files (.vimrc, .ba
    
 1. `tmux source-file ~/.tmux.conf` 
 
+
+## Set up '.bashrc` file
+
+1. Copy and paste the contents of `.bashrc` to the end of the existing `~/.bashrc` file
+   * This block of code is just to color-code the command line prompt
 
 
 ## next steps 
