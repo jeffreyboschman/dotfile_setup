@@ -1,9 +1,6 @@
 # dotfile_setup
-A place for me to reference my personal preferences in my dot files (.vimrv, .bashrc, .tmux.conf)
+A place for me to reference my personal preferences in my dot files (.vimrc, .bashrc, .tmux.conf)
 
-
-
-ckup-for-nerds-fdbf40b0421
 
 ## Make sure Linux environment is up-to-date
 
@@ -24,24 +21,26 @@ ckup-for-nerds-fdbf40b0421
 ## Set up `.vimrc` file
 
 1. Create `monokai.vim` file in `~/.vim/colors/` directory
-    * This [sets up the color theme "monokai"](https://github.com/sickill/vim-monokai)
+   * This [sets up the color theme "monokai"](https://github.com/sickill/vim-monokai)
 
 1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-    * This is to set up [vundle](https://github.com/VundleVim/Vundle.vim) as the vim plugin manager
+   * This is to set up [vundle](https://github.com/VundleVim/Vundle.vim) as the vim plugin manager
 
-1. Create `~/.vimrc` file 
+1. Create `~/.vimrc` file
 
 1. Install Vim Plugins
+   * With `~/.vimrc` opened up with `vim`, type `:PluginInstall`
+   * Type `:q` to exit
 
-    * With `~/.vimrc` opened up with `vim`, type `:PluginInstall`
-
-    * Type `:q` to exit
+1. `source ~/.vimrc` 
 
 ## Set-up `.tmux.conf` file
 
 1. Create `~/.tmux.conf` file
-    * includes [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) code block so we can use ctrl+vim bindings to move around tmux panes
-
+   * includes [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) code block so we can use ctrl+vim bindings to move around tmux panes
+   * Remove the "macOS only" lines if using Linux
+   
+1. `tmux source-file ~/.tmux.conf` 
 
 
 
