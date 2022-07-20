@@ -9,11 +9,15 @@ A link that I might need in the future: https://medium.com/@stephenagrice/take-y
 
 `sudo apt-get upgrade`
 
-2. Confirm `git` is installed
+2. Confirm `git`, `vim`, and `tmux` is installed
 
 `git --version`
 
+`vim --version`
 
+`tmux -V`
+
+3. Set up [vundle](https://github.com/VundleVim/Vundle.vim) as a vim plugin manager
 
 
 My first step is to set up my vim-tmux-navigator. https://github.com/christoomey/vim-tmux-navigator
